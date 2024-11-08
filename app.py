@@ -14,5 +14,10 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/payment")
+def payment():
+    return render_template("payment.html")
+
+
 if "__main__" == __name__:
     app.run(debug=True)
