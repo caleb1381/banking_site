@@ -9,6 +9,11 @@ def mainpage():
     return render_template("index.html")
 
 
+@app.route("/home")
+def statichome():
+    return render_template("index.html")
+
+
 @app.route("/contact")
 def contact():
     return render_template("contact.html")
