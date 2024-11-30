@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>payment || page</title>
+    <link href="{{url_for('static',filename='css/output.css')}}" rel="stylesheet">
     <link rel="shortcut icon" href="static\img\favicon_io\favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/output.css')}}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>About</title>
 </head>
 <body>
     <header class="text-gray-600 body-font">
@@ -19,13 +20,13 @@
             <a href="#"><span class="md:ml-3 text-xl font-semibold lg:border-e-cyan-700 border-2 p-1 mt-1 sm:border-none">FIGs Bank</span></a>
           </a>
           <nav class=" mt-7 md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-semibold">
-            <a class="mr-7 text-gray-950 hover:text-slate-500  cursor-pointer text-xl " href="home">Home</a>
+            <a class="mr-7 text-gray-950 hover:text-slate-500  cursor-pointer text-xl" href="home">Home</a>
             <a class="mr-7  text-gray-950 hover:text-slate-500  cursor-pointer text-xl " href="about">About</a>
             <a class="mr-7   text-gray-950 hover:text-slate-500 cursor-pointer text-xl " href="contact"> Contact</a>
             <a class="mr-7   text-gray-950 hover:text-slate-500 cursor-pointer text-xl" href="payment">Payment</a>
           </nav>
           <button
-            class="hidden md:inline-flex items-center bg-blue-500 border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 sm: rounded text-base mt-4 sm:mt-0 text-white">Payment
+            class="hidden md:inline-flex items-center bg-blue-500 border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 sm: rounded text-base mt-4 sm:mt-0 text-white">payment
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               class="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -34,4 +35,4 @@
         </div>
       </header>
 </body>
-</html> 
+</html>

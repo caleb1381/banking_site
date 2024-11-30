@@ -9,14 +9,23 @@ def mainpage():
     return render_template("index.html")
 
 
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+
 @app.route("/home")
 def statichome():
     return render_template("index.html")
 
 
+def calc(a, b):
+    return a * b
+
+
 @app.route("/contact")
 def contact():
-    return render_template("contact.html")
+    return render_template("contact.html", content=calc(30, 40))
 
 
 @app.route("/payment")
