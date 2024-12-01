@@ -19,13 +19,9 @@ def statichome():
     return render_template("index.html")
 
 
-def calc(a, b):
-    return a * b
-
-
 @app.route("/contact")
 def contact():
-    return render_template("contact.html", content=calc(30, 40))
+    return render_template("contact.html")
 
 
 @app.route("/payment")
